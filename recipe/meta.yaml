@@ -29,6 +29,9 @@ requirements:
     - onnxruntime
     - python >=3.8
     - qtpy
+    - dask-core
+    - scikit-image
+    - tqdm
 
 test:
   imports:
