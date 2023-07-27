@@ -21,16 +21,18 @@ requirements:
     - setuptools-scm
   run:
     - aicsimageio
-    - czmodel
+    - czmodel >=5
     - cztile
+    - dask-core
     - magicgui
     - napari
     - numpy
     - onnxruntime
     - python >=3.8
+    - pytorch
     - qtpy
-    - dask-core
     - scikit-image
+    - tifffile >=2023.4.12
     - tqdm
 
 test:
@@ -38,15 +40,16 @@ test:
     - napari_czann_segment
   commands:
     - pip list
-    # - pip check  # tf2onnx 1.8.5 has requirement flatbuffers~=1.12
+    - pip check  # tf2onnx 1.8.5 has requirement flatbuffers~=1.12
   requires:
     - pip
 
 about:
-  home: https://github.com/sebi06/napari-czann-segment
+  home: https://pypi.org/project/napari-czann-segment/
   summary: Segmention using DeepLearning ONNX models packaged as *.czann files
   license: BSD-3-Clause
   license_file: LICENSE
+  dev_url: https://github.com/sebi06/napari-czann-segment
 
 extra:
   recipe-maintainers:
