@@ -3,11 +3,13 @@ About napari-czann-segment-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-czann-segment-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/sebi06/napari-czann-segment
+Home: https://pypi.org/project/napari-czann-segment
 
 Package license: BSD-3-Clause
 
 Summary: Segmention using DeepLearning ONNX models packaged as *.czann files
+
+Development: https://github.com/sebi06/napari-czann-segment
 
 Current build status
 ====================
